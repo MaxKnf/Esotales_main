@@ -1,0 +1,56 @@
+* {
+    color: white;
+}
+
+.display-classe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.display-classe-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.display-class {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+h2, h3{
+    text-transform: capitalize;
+    align-self: center;
+}
+.builds {
+    display: flex;
+    flex-direction: column;
+}
+
+.build-1,
+.build-2,
+.build-3 {
+    margin: 20px 0;
+}
+
+.gear-sets {
+    font-size: 14px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.bar-1 > img,
+.bar-2 > img {
+    width: 50px;
+}

@@ -1,0 +1,27 @@
+.classes {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classesList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:760px){
+    .classesList{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
+    }
+}
+
+@media screen and (min-width:1449px){
+    .classesList{
+        width: 80%;    
+    }
+}

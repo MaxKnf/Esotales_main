@@ -1,0 +1,9 @@
+.esotales-intro {
+    background-image: url(https://images.uesp.net/b/bc/ON-wallpaper-Scions_of_Ithelia-1920x1080.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding-top: 100px;
+}
