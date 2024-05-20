@@ -1,0 +1,18 @@
+.videosgallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.videosgallery h1 {
+    text-decoration: underline;
+}
+
+.videosList {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

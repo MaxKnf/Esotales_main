@@ -1,4 +1,5 @@
 import React from 'react'
+import "./DisplayNews.css"
 import { useParams } from 'react-router-dom'
 import { NewsList } from '../components/news/NewsList';
 
@@ -9,7 +10,6 @@ function DisplayNews() {
 
   return (
     <div className='news'
-      // style={{width:"50%", display: "flex", alignSelf: "auto", justifyContent: "",}}
       >
       <h1>{news.name}</h1>
       <p className='part1'>{news.part1}</p>

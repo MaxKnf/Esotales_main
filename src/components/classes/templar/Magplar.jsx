@@ -96,7 +96,7 @@ function Magplar() {
                         <tr>
                             <td>Head</td>
                             <td>Slimecraw</td>
-                            <td>Medium</td>
+                            <td>Light</td>
                             <td>Divine</td>
                             <td>Magicka</td>
                         </tr>
@@ -131,7 +131,7 @@ function Magplar() {
                         <tr>
                             <td>Pants</td>
                             <td>Deadly Strike</td>
-                            <td>Light</td>
+                            <td>Medium</td>
                             <td>Divine</td>
                             <td>Magicka</td>
                         </tr>

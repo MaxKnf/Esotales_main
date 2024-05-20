@@ -1,15 +1,14 @@
 import React from 'react'
 import trap from './skillsImages/Barbed_Trap.png'
 import cloak from './skillsImages/Cloak.png'
-import rstrikes from './skillsImages/Rapid_Strikes.png'
+import eweapon from "./skillsImages/Elemental_Weapon.png"
 import carve from './skillsImages/Carve.png'
 import stampede from './skillsImages/Stampede.png'
-import concealed from "./skillsImages/Concealed_Weapon.png"
 import dshade from "./skillsImages/Dark_Shade.png"
 import debilitate from "./skillsImages/Debilitate.png"
 import istrike from "./skillsImages/Incapacitating_Strike.png"
-import kblade from "./skillsImages/Killer's_Blade.png"
-import rfocus from "./skillsImages/Relentless_Focus.png"
+import impale from "./skillsImages/Impale.png"
+import mresolve from "./skillsImages/Merciless_Resolve.png"
 import star from "./skillsImages/Shooting_Star.png"
 import tpath from "./skillsImages/Twisting_Path.png"
 import caltrops from "./skillsImages/Anti-Cavalry_Caltrops.png"
@@ -192,11 +191,11 @@ function Magblade() {
             <div className='skills'>
                 <h4>Skills</h4>
                 <div className='bar-1'>
-                    <img src={concealed} alt="concealed weapon"/>
-                    <img src={trap} alt="barbed trap"/>
-                    <img src={rstrikes} alt="rapid strikes"/>
-                    <img src={kblade} alt="killer's blade"/>
-                    <img src={rfocus} alt="relentless focus"/>
+                    <img src={cloak} alt="quick cloak"/>
+                    <img src={debilitate} alt="debilitate"/>
+                    <img src={eweapon} alt="Elemental weapon"/>
+                    <img src={impale} alt="Impale"/>
+                    <img src={mresolve} alt="Merciless Resolve"/>
                     <img src={istrike} alt="incapacitating strike"/>
                 </div>
                 <div className='bar-2'>
@@ -204,7 +203,7 @@ function Magblade() {
                     <img src={carve} alt="carve"/>
                     <img src={tpath} alt="twisting path"/>
                     <img src={dshade} alt="dark shade"/>
-                    <img src={debilitate} alt="debilitate"/>
+                    <img src={trap} alt="barbed trap"/>
                     <img src={star} alt="shooting star"/>
                 </div>
             </div>
@@ -318,11 +317,11 @@ function Magblade() {
             <div className='skills'>
                 <h4>Skills</h4>
                 <div className='bar-1'>
-                    <img src={concealed} alt="concealed weapon"/>
+                    <img src={debilitate} alt="debilitate"/>
                     <img src={cloak} alt="quick cloak"/>
-                    <img src={rstrikes} alt="rapid strikes"/>
-                    <img src={kblade} alt="killer's blade"/>
-                    <img src={rfocus} alt="relentless focus"/>
+                    <img src={eweapon} alt="Elemental weapon"/>
+                    <img src={impale} alt="Impale"/>
+                    <img src={mresolve} alt="Merciless Resolve"/>
                     <img src={istrike} alt="incapacitating strike"/>
                 </div>
                 <div className='bar-2'>

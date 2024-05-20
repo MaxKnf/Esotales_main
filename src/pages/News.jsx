@@ -1,7 +1,9 @@
 import React from 'react'
+import "./News.css"
 import { useState } from 'react';
 import NewsItem from '../components/news/NewsItem'
 import { NewsList } from '../components/news/NewsList'
+import Button from '@mui/material/Button'
 
 function News() {
     const initialLimit = 4;
@@ -10,7 +12,7 @@ function News() {
       setLimit(prevLimit => prevLimit + 4); 
     };
   return (
-    <div>
+    <div className='news'>
       <h1>News</h1>
 
       <div className='newsList'>
@@ -25,7 +27,10 @@ function News() {
       </div>
 
       {NewsList.length > limit && (
-        <button onClick={showMore}>Show More</button>
+        <Button 
+          onClick={showMore}
+          sx={{color:"white", border: "1px solid white", width: "200px"}}
+        >Show More</Button>
       )}
     </div>
   )

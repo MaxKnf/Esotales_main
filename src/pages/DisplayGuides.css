@@ -1,0 +1,36 @@
+.beginner-guides,
+.combat-guides,
+.crafting-guides {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h1{
+    width:fit-content
+}
+
+p {
+    display: flex;
+    width: 90%;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:1026px) {
+    p{
+        width: 70%;
+    }       
+}
+
+@media screen and (min-width:1358px) {
+    p{
+        width: 60%;
+    }       
+}

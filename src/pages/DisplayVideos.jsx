@@ -1,6 +1,7 @@
 import React from 'react'
 import VideosItem from '../components/gallery/VideosItem'
 import {VideosList} from '../components/gallery/VideosList'
+import "./DisplayVideos.css"
 
 function DisplayVideos() {
   return (

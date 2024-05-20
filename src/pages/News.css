@@ -1,0 +1,28 @@
+.news {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (min-width:760px){
+    .newsList{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
+    }
+}
+
+@media screen and (min-width:1449px){
+    .newsList{
+        width: 80%;    
+    }
+}

@@ -9,6 +9,12 @@
     align-items: center;
     padding-top: 100px;
 }
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .display-classe-container {
     width: 100%;
@@ -34,7 +40,11 @@ h2, h3{
 .build-2,
 .build-3 {
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .gear-sets {
     font-size: 14px;
@@ -53,4 +63,46 @@ table, th, td {
 .bar-1 > img,
 .bar-2 > img {
     width: 50px;
+    border-radius: 0%;
+}
+
+
+
+@media screen and (min-width:1000px){
+    .display-classe-container > .classe-img{
+        width: 80%;
+        align-self: center;
+        border-radius: 50px;
+    }
+
+    .intro,
+    .pros-cons,
+    .consumables,
+    .character-stats{
+        margin: 25px 125px;
+        font-size: 1.3rem;
+    }
+    table, th, td {
+        font-size: 1.3rem;
+    }
+    .skills{
+        margin: 40px 0;
+    }
+    .bar-1 > img,
+    .bar-2 > img  {
+        width: 70px;
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    .display-classe-container > .classe-img{
+        width: 70%;
+
+    }
+    .pros-cons,
+    .consumables,
+    .character-stats{
+        margin: 25px 250px;
+    }
 }

@@ -7,7 +7,7 @@ import chunter from './skillsImages/Camouflaged_Hunter.png'
 import fatecarver from './skillsImages/Fatecarver.png'
 import frune from './skillsImages/Fulminating_Rune.png'
 import srune from './skillsImages/Scalding_Rune.png'
-import flail from './skillsImages/Fatecarver.png'
+import flail from "./skillsImages/Cephaliarch's_Flail.png"
 import eye from './skillsImages/Languid_Eye.png'
 import scholar from './skillsImages/Scholarship.png'
 
@@ -62,7 +62,6 @@ function Stamarc() {
                 <ul>
                     <li>Max stamina</li>
                     <li>Max stamina + Max health</li>
-                    <li>Max stamina + stamina regen</li>
                 </ul>
             </div>
 
@@ -70,8 +69,7 @@ function Stamarc() {
                 <h4>Potion</h4>
                 <ul>
                     <li>Essence of heroism</li>
-                    <li>Essence of weapon power</li>
-                    <li>Essence of spell power</li>
+                    <li>Tri Stat Potion</li>
                 </ul>
             </div>
         </div>

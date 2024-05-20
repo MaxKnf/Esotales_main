@@ -13,7 +13,7 @@ import star from "./skillsImages/Shooting_Star.png"
 import stampede from "./skillsImages/Stampede.png"
 import vbane from "./skillsImages/Vampire's_Bane.png"
 import bspear from "./skillsImages/Blazing_Spear.png"
-import pinjection from "./skillsImages/Poison_Injection.png"
+// import pinjection from "./skillsImages/Poison_Injection.png"
 
 
 
@@ -99,7 +99,7 @@ function Stamplar() {
                     <tr>
                         <td>Head</td>
                         <td>Slimecraw</td>
-                        <td>Medium</td>
+                        <td>Light</td>
                         <td>Divine</td>
                         <td>Stamina</td>
                     </tr>
@@ -134,7 +134,7 @@ function Stamplar() {
                     <tr>
                         <td>Pants</td>
                         <td>Deadly Strike</td>
-                        <td>Light</td>
+                        <td>Medium</td>
                         <td>Divine</td>
                         <td>Stamina</td>
                     </tr>

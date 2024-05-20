@@ -1,0 +1,35 @@
+.galery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.galery h1 {
+    text-decoration: underline;
+}
+
+.gallery-link {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #2b2b28;
+    border-radius: 15px;
+    padding: 15px 80px;
+    margin: 25px 0;   
+}
+
+@media screen and (min-width:767px){
+    .gallery-link-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .gallery-link {
+        width: 70%;
+        margin: 50px 0;
+    }
+}

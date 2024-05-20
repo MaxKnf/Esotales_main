@@ -8,6 +8,7 @@
     justify-content: flex-start;
     position: fixed;
     top: 0;
+    z-index: 9;
 }
 
 .navigation .css-i4bv87-MuiSvgIcon-root {
@@ -25,4 +26,5 @@
 
 .drawer {
     background-color: #2b2b28;
+    z-index: 10;
 }

@@ -1,0 +1,28 @@
+.imagesItem {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #2b2b28;
+    border-radius: 15px;
+}
+.imagesItem h2{
+    margin: 0%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.imagesItem .bgImage {
+    width: 100%;
+    min-height: 250px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:1000px){
+    .imagesItem {
+        width: 45%;
+    }
+    .imagesItem .bgImage {
+        min-height: 400px;    
+    }
+}

@@ -7,7 +7,7 @@ import chunter from './skillsImages/Camouflaged_Hunter.png'
 import fatecarver from './skillsImages/Fatecarver.png'
 import frune from './skillsImages/Fulminating_Rune.png'
 import srune from './skillsImages/Scalding_Rune.png'
-import flail from './skillsImages/Fatecarver.png'
+import flail from "./skillsImages/Cephaliarch's_Flail.png"
 import eye from './skillsImages/Languid_Eye.png'
 import scholar from './skillsImages/Scholarship.png'
 
@@ -60,9 +60,9 @@ function Magarc() {
             <div className='food'>
                 <h4>Food</h4>
                 <ul>
-                    <li>Max stamina</li>
-                    <li>Max stamina + Max health</li>
-                    <li>Max stamina + stamina regen</li>
+                    <li>Max magicka</li>
+                    <li>Max magicka + Max health</li>
+                    <li>Max magicka + magicka regen</li>
                 </ul>
             </div>
 
@@ -72,6 +72,7 @@ function Magarc() {
                     <li>Essence of heroism</li>
                     <li>Essence of spell power</li>
                     <li>Essence of weapon power</li>
+                    <li>Tri Stat Potion</li>
                 </ul>
             </div>
         </div>

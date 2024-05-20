@@ -1,4 +1,5 @@
 import React from 'react'
+import "./DisplayGuides.css"
 import { useParams } from 'react-router-dom'
 import { BeginnerList, CombatList, CraftingList } from '../components/guides/GuidesList';
 
