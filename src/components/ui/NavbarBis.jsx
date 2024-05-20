@@ -1,6 +1,6 @@
 import "./NavbarBis.css"
 import * as React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
@@ -12,7 +12,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 export default function TemporaryDrawer() {
   const [open, setOpen] = React.useState(false);
 
-  const toggleDrawer = (newOpen) => () => {
+  const handleClick = () => {
+     
+    window.scrollTo(0, 0);
+  };
+
+  const toggleDrawer = (newOpen) => (event) => {
+    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+      return;
+    }
     setOpen(newOpen);
   };
 
@@ -40,13 +48,19 @@ export default function TemporaryDrawer() {
   ]
 
   const DrawerList = (
-    <Box className="drawer" sx={{ width: 300 }} role="navigation" onClick={toggleDrawer(false)}>
+    <Box
+      className="drawer"
+      sx={{ width: 300 }}
+      role="navigation"
+      onClick={toggleDrawer(false)}
+      onKeyDown={toggleDrawer(false)}
+    >
       <List>
         {linkList.map((item, index) => (
           <ListItem key={index} disablePadding>
-             <ListItemButton key={index} disablePadding component="a" href={item.link}>
-            {item.name}
-          </ListItemButton>
+            <ListItemButton component={Link} to={item.link} onClick={handleClick} sx={{ color: '#fff', fontSize: '1.5rem' }}>
+              {item.name}
+            </ListItemButton>
           </ListItem>
         ))}
       </List>
@@ -56,11 +70,19 @@ export default function TemporaryDrawer() {
 
   return (
     <div className='navigation'>
-      <Button onClick={toggleDrawer(true)}><MenuIcon /></Button>
-      <Link to="/" className='title' >
+      <Button onClick={toggleDrawer(true)}><MenuIcon sx={{ fontSize: 40 }} /></Button>
+      <Link to="/" className='title'>
         EsoTales
       </Link>
-      <Drawer  open={open} onClose={toggleDrawer(false)}>
+      <Drawer
+        open={open}
+        onClose={toggleDrawer(false)}
+        PaperProps={{
+          sx: {
+            backgroundColor: '#2b2b28',
+          }
+        }}
+      >
         {DrawerList}
       </Drawer>
     </div>

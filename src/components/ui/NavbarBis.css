@@ -13,6 +13,7 @@
 
 .navigation .css-i4bv87-MuiSvgIcon-root {
     font-size: 2rem;
+    background-color: #2b2b28;
 }
 
 .title {
@@ -25,6 +26,5 @@
 }
 
 .drawer {
-    background-color: #2b2b28;
     z-index: 10;
 }
